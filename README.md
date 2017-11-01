@@ -2,7 +2,7 @@
 
 ## Overview
 
-You'll build a small React application where you'll update state in response to an XHR payload and pass props among components to handle updates. 
+You'll build a small React application where you'll update state in response to an XHR payload and pass props among components to handle updates.
 
 ## Animal Shelter
 ![Best Friends](https://media.giphy.com/media/xTiTnz5OOUn49wKbg4/giphy.gif)
@@ -24,9 +24,9 @@ There are several components that need your attention. All of these components c
 1. Should have an `adoptedPets` prop. Use this prop to figure out if a pet is adopted or not, and pass that result to the `<Pet />` components in the form of an `isAdopted` prop.
 
 ### `Filters`
-1. Should have a `filters` prop that contains all of the filters in the `App` state (see below). Hook up this value to the select component.
-2. Should have an `onChangeType` callback prop. This callback prop gets called whenever the value of the `<select>` element changes. It calls the `onChangeType` callback prop with one argument: the value of the select.
-3. Should have an `onFindPetsClick` callback prop. This callback prop gets called when the users clicks the 'Find pets' button.
+<!-- 1. Should have a `filters` prop that contains all of the filters in the `App` state (see below). Hook up this value to the select component. -->
+<!-- 2. Should have an `onChangeType` callback prop. This callback prop gets called whenever the value of the `<select>` element changes. It calls the `onChangeType` callback prop with one argument: the value of the select. -->
+<!-- 3. Should have an `onFindPetsClick` callback prop. This callback prop gets called when the users clicks the 'Find pets' button. -->
 
 ### `App`
 1. The app's initial state is already defined. Pass the right state properties to the `<Filters />` and `<PetBrowser />` components.
